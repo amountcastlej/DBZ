@@ -4,22 +4,28 @@
 }
 
 .container {
+    background-color: lightgray;
     border: 2px solid gray;
+    flex-wrap: wrap;
     min-height: 800px;
     margin: 50px auto;
-    width: 1000px;
+    width: 1500px;
 }
 
 .navigation {
     align-items: center;
-    background-color: rgb(253,183,3);
+    background: linear-gradient(to top, rgb(253,183,3), rgb(49,133,198));
+    color: whitesmoke;
     display: flex;
+    flex-wrap: wrap;
+    font-weight: bold;
     justify-content: space-between;
     padding: 20px;
 }
 
 ul {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
     width: 200px;
 }
@@ -30,13 +36,38 @@ li {
 
 .main {
     border: 1px solid blue;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
+    flex-wrap: wrap;
     margin: 10px 0;
     padding: 20px;
 }
 
-p {
+.description {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#showInfo{
+    color: blue;
+    font-weight: bold;
     width: 400px;
+}
+
+#dbzcrew{
+    width: 1460px;
+    margin: 20px 0;
+}
+
+.cards {
+    background-color: lightblue;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.characters{
+    height: 400px;
+    width: 250px;
 }
